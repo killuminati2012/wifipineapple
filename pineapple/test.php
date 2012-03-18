@@ -6,5 +6,6 @@ if (!file_exists($filename)) {
 	echo "doesn't";
 	//exec("touch /root/.ssh/known_hosts");
 	//echo "does now";
+	//test
 }
 ?>
