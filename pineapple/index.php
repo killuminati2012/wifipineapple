@@ -71,7 +71,7 @@ echo "<br/><b>Interfaces</b><br />";
 
 echo "&nbsp;PoE / LAN Port: " . exec("ifconfig br-lan | grep inet | awk '{print $2}' | cut -c6-16") . "<br />";
 echo "&nbsp;&nbsp; USB 3G Modem: " . exec("ifconfig 3g-wan2 | grep inet | awk '{print $2}' | cut -c6-16") . "<br />";
-echo "&nbsp;WAN / LAN Port: " . exec("ifconfig wan | grep inet | awk '{print $2}' | cut -c6-16") . "<br />";
+echo "&nbsp;WAN / LAN Port: " . exec("ifconfig eth1 | grep 'inet addr:' | cut -d: -f2 | awk '{ print $1}'") . "<br />";
 echo "Public Internet: "; 
 if (isset($_GET[revealpublic])) { 
 	echo exec("wget -qO- http://whatismyip.org") . "<br />"; 
