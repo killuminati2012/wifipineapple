@@ -1,0 +1,4 @@
+<table border="0" width="100%" bgcolor="green"><tr width="100%">
+<td>
+<pre><a href="index.php"><font color="black"><b>Status</b></a> | <a href="config.php"><font color="black"><b>Configuration</b></a> | <a href="advanced.php"><font color="black"><b>Advanced</b></a> | <a href="usb.php"><font color="black"><b>USB</b></a> | <a href="jobs.php"><font color="black"><b>Jobs</b></a> | <a href="3g.php"><font color="black"><b>3G</b></a> | <a href="ssh.php"><font color="black"><b>SSH</b></a> | <a href="scripts.php"><font color="black"><b>Scripts</b></font></a> | <a href="logs.php"><font color="black"><b>Logs</b></a> | <a href="upgrade.php"><font color="black"><b>Upgrade</b></a> | <a href="resources.php"><font color="black"><b>Resources</b></a> | <a href="about.php"><font color="black"><b>About</b></a>
+</pre></td></tr></table>

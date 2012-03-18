@@ -1,0 +1,15 @@
+Station 48:5d:60:9f:98:fb (on wlan0)
+        ip address:     <b>172.16.42.199</b>
+        host name:      <b>seashell-PC</b>
+        Karma SSID:     <b></b>
+	inactive time:	2320 ms
+	rx bytes:	12703
+	rx packets:	128
+	tx bytes:	2236
+	tx packets:	26
+	tx retries:	0
+	tx failed:	1
+	signal:  	-26 dBm
+	signal avg:	-25 [-26] dBm
+	tx bitrate:	58.5 MBit/s MCS 6
+	rx bitrate:	65.0 MBit/s MCS 7
